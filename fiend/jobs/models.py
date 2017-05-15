@@ -112,12 +112,14 @@ class Opening(models.Model):
 
     ENTRY = 'entry'
     MID = 'mid'
-    SENIOR = 'senior'
+    SENIOR = 'senior',
+    EXECUTIVE = 'executive'
 
     SENIORITY_CHOICES = (
         (ENTRY, ENTRY),
         (MID, MID),
-        (SENIOR, SENIOR)
+        (SENIOR, SENIOR),
+        (EXECUTIVE, EXECUTIVE)
     )
 
     # opening information
